@@ -1,0 +1,404 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 128px;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #15161d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bruno Ace SC", cursive, sans-serif;
+  line-height: 1.5;
+}
+
+.nav {
+  background-color: #000;
+}
+.nav .navContainer {
+  width: 1296px;
+  margin: 0 auto;
+}
+.nav .navList {
+  display: flex;
+  justify-content: space-between;
+  gap: 61px;
+  padding-top: 2.5rem;
+}
+.nav .navList .navItem {
+  width: 306px;
+  flex-shrink: 0;
+}
+.nav .navList .navContact {
+  width: 196px;
+  text-align: right;
+}
+.nav .navList .navLink {
+  font-size: 16px;
+  color: #d1d1d1;
+}
+
+.header {
+  background-color: #000;
+}
+.header .headerContainer {
+  width: 1296px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.header .headerImg {
+  margin: 4.5rem 0;
+}
+.header .headerImg .williamImg {
+  display: block;
+}
+.header .headerTitle {
+  width: 636px;
+  display: flex;
+  flex-direction: column;
+  margin: 14.5rem 0;
+}
+.header .headerTitle .titleContent {
+  color: #fff;
+}
+.header .headerTitle .titleName {
+  color: #00ffa3;
+  text-align: right;
+}
+.header .headerTitle .titleLink {
+  display: flex;
+  justify-content: end;
+}
+.header .headerTitle .titleLink .linkContainer {
+  display: flex;
+  width: 185px;
+  padding: 12px 24px;
+  background-color: #fff;
+  border-radius: 32px;
+}
+.header .headerTitle .contactLink {
+  font-size: 16px;
+  color: #000;
+  margin-right: 0.25rem;
+}
+
+.introd {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+}
+.introd .introdContainer {
+  width: 1296px;
+  display: flex;
+  margin: 0 auto;
+}
+.introd .introdContent {
+  margin: 10rem 1.5rem 19.875rem 0;
+}
+.introd .introdContent .title {
+  color: #fff;
+  margin-bottom: 2.25rem;
+}
+.introd .introdContent .content {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.introd .introdContent .sparkle {
+  margin: 0 1rem;
+}
+.introd .introdImg {
+  display: flex;
+  margin: 10rem 0;
+}
+.introd .introdImg .introd-Img {
+  margin: 0 1.5rem;
+}
+
+.aboutMe {
+  width: 1296px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.aboutMe .aboutMeLeft {
+  width: 636px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin: 12.875rem 0;
+}
+.aboutMe .aboutMeCard {
+  width: 306px;
+  padding: 1rem;
+}
+.aboutMe .aboutMeCard .num {
+  margin-bottom: 0.25rem;
+}
+.aboutMe .aboutMeCard .leftTitle {
+  margin-bottom: 0.25rem;
+}
+.aboutMe .aboutMeCard .leftContent {
+  font-size: 16px;
+  color: #15161d;
+}
+.aboutMe .aboutMeRight {
+  width: 526px;
+  margin: 10rem 0;
+}
+.aboutMe .aboutMeRight .rightTitle {
+  margin-bottom: 2.25rem;
+}
+.aboutMe .aboutMeRight .rightContent {
+  font-size: 24px;
+  color: #15161d;
+}
+
+.contact {
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.contact .contactContainer {
+  width: 1296px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .contactTitle {
+  margin: 127px 0;
+  display: flex;
+}
+.contact .title {
+  color: #fff;
+  margin-right: 1rem;
+}
+.contact .trending_flat {
+  width: 100px;
+  height: 100px;
+}
+.contact .contactLink {
+  margin: 6rem 0;
+  display: flex;
+}
+.contact .link {
+  width: 162px;
+  height: 162px;
+  display: inline-block;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+}
+.contact .link:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.8980392157);
+}
+.contact .link .linkImg {
+  width: 100%;
+  height: 100%;
+}
+.contact .discord {
+  margin-right: 1.25rem;
+}
+.contact .instagram {
+  margin-right: 1.25rem;
+}
+
+.project {
+  width: 1296px;
+  margin: 0 auto;
+  padding: 10rem 0;
+}
+.project .title {
+  width: 746px;
+  margin: 0 0 1rem 34.375rem;
+}
+.project .projectContainer {
+  display: flex;
+}
+.project .left {
+  margin-right: 1.5rem;
+}
+.project .right {
+  display: flex;
+  flex-direction: column;
+}
+.project .right .rightTop {
+  display: flex;
+  margin-bottom: 1.75rem;
+}
+.project .right .rightDown {
+  display: flex;
+  justify-content: space-between;
+}
+.project .right .projectContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+}
+.project .right .contact {
+  font-size: 16px;
+  color: #15161d;
+}
+.project .right .projectLink {
+  width: 185px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  border-radius: 32px;
+  padding: 0.75rem 1.5rem;
+}
+.project .right .projectLink .link {
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer {
+  background-color: #000;
+}
+.footer .footerContent {
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  padding: 2.5rem 0;
+}/*# sourceMappingURL=style.css.map */
